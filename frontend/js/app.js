@@ -38,7 +38,7 @@ const serverOffMessage =
   "Cannot connect to the server. Please make sure it is running and try again.";
 
 async function getExpenses() {
-  spinner.classList.remove("d-none"); // اظهر السبينر
+  spinner.classList.remove("d-none"); 
   try {
     const response = await fetch(API_URL);
     const data = await response.json();
